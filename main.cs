@@ -17,7 +17,7 @@ class Program
         height = Convert.ToInt32(Console.ReadLine());
 
         Console.WriteLine("");
-        Console.WriteLine("Area: " + ( basse * height ) / 2 + "cm²");
+        Console.WriteLine("Area: " + (basse * height) / 2 + "cm²");
 
         Console.WriteLine("\nDone.");
     }
