@@ -5,19 +5,19 @@ class Program
     public static void Main(string[] args)
     {
         // This function accepts user input
-        int basse;
-        int height;
+        int trianglebase;
+        int triangleheight;
 
         Console.WriteLine("Please enter the base and height.");
         Console.WriteLine("");
 
         Console.Write("base: ");
-        basse = Convert.ToInt32(Console.ReadLine());
+        trianglebase = Convert.ToInt32(Console.ReadLine());
         Console.Write("height: ");
-        height = Convert.ToInt32(Console.ReadLine());
+        triangleheight = Convert.ToInt32(Console.ReadLine());
 
         Console.WriteLine("");
-        Console.WriteLine("Area: " + (basse * height) / 2 + "cm²");
+        Console.WriteLine("Area: " + ( trianglebase * triangleheight ) / 2 + "cm²");
 
         Console.WriteLine("\nDone.");
     }
