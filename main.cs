@@ -17,7 +17,7 @@ class Program
         triangleheight = Convert.ToInt32(Console.ReadLine());
 
         Console.WriteLine("");
-        Console.WriteLine("Area: " + ( trianglebase * triangleheight ) / 2 + "cm²");
+        Console.WriteLine("Area: " + (trianglebase * triangleheight) / 2 + "cm²");
 
         Console.WriteLine("\nDone.");
     }
